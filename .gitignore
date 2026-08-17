@@ -1,0 +1,28 @@
+# competition data (see data/README.md for how to get it)
+data/*.csv
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# environments
+.venv/
+venv/
+
+# editor / OS
+.DS_Store
+
+# auto-generated training artifacts
+catboost_info/
+
+# docs
+docs/
+
+# hackathon rule compliance — see README "코드 공개 범위 안내"
+experiments/
+legacy/
+final_submission.ipynb
+submissions/
+reports/generate_charts.py
+requirements.txt
